@@ -10,6 +10,7 @@ body, html {
     width: 100%;
     height: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
 }
 
 .site-container{
@@ -36,7 +37,7 @@ body, html {
     flex-wrap: wrap;
     justify-content: center;
 
-    background-color: grey;
+    background-color: rgb(27, 48, 21);
     opacity: 0.3;
 
 }
@@ -65,7 +66,7 @@ body, html {
 
 .head{
     height: 33vh;
-    background-color:  rgb(252, 249, 249);
+    background-color:  rgb(48, 48, 46);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -81,6 +82,7 @@ body, html {
 
 .midsection{
     height: 34vh;
+    background-color: rgb(104, 104, 64);
 }
 
 form{
@@ -102,13 +104,24 @@ form > *{
 
 input{
     padding: 5px;
+    border-radius: 5px;
+
+}
+
+input:valid{
+    border-color: green;
+}
+
+
+input:invalid:focus{
+    border-color: red;
 }
 
 
 
 .footer{
     height: 33vh;
-    background-color:  rgb(252, 249, 249);
+    background-color:  rgb(48, 48, 46);
 }
 
 .footer > .button-container{
@@ -119,6 +132,16 @@ input{
     justify-content: center;
     padding-right: 10%;
 }
+
+.button-container > p{
+    padding-left: 20px;
+}
+
+.message{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 
 
