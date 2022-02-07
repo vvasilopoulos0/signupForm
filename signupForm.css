@@ -92,9 +92,8 @@ form{
     height: 100%;
     justify-content: center;
     padding-left: 15%;
-    padding-right: 15%
-
-
+    padding-right: 15%;
+    padding-top: 15px;
 }
 
 form > *{
