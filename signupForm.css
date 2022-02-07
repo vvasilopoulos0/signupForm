@@ -83,6 +83,7 @@ body, html {
 .midsection{
     height: 34vh;
     background-color: rgb(104, 104, 64);
+    overflow: auto;
 }
 
 form{
